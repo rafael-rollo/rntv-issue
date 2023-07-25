@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should present the route title on scene content 1`] = `
+<RCTSafeAreaView
+  style={
+    [
+      {
+        "backgroundColor": "#F3F3F3",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      onLayout={[Function]}
+      style={
+        {
+          "backgroundColor": "#2196f3",
+          "elevation": 4,
+          "shadowColor": "black",
+          "shadowOffset": {
+            "height": 0.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 0.5,
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        pointerEvents="none"
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            {
+              "backgroundColor": "#ffeb3b",
+              "bottom": 0,
+              "height": 2,
+              "left": "0%",
+              "position": "absolute",
+              "right": 0,
+              "transform": [],
+              "width": "NaN%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "overflow": "scroll",
+          }
+        }
+      >
+        <RCTScrollView
+          accessibilityRole="tablist"
+          alwaysBounceHorizontal={false}
+          automaticallyAdjustContentInsets={false}
+          collapsable={false}
+          contentContainerStyle={
+            [
+              {
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+              },
+              {
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+          data={
+            [
+              {
+                "key": "first",
+                "title": "First",
+              },
+              {
+                "key": "second",
+                "title": "Second",
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          keyboardShouldPersistTaps="handled"
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          onViewableItemsChanged={[Function]}
+          overScrollMode="never"
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={16}
+          scrollsToTop={false}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+          stickyHeaderIndices={[]}
+          style={{}}
+          viewabilityConfigCallbackPairs={
+            [
+              {
+                "onViewableItemsChanged": [Function],
+                "viewabilityConfig": undefined,
+              },
+            ]
+          }
+        >
+          <View>
+            <View
+              onFocusCapture={[Function]}
+              onLayout={[Function]}
+              style={
+                [
+                  {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="First"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": true,
+                  }
+                }
+                accessibilityStates={
+                  [
+                    "selected",
+                  ]
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                delayPressIn={0}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onLayout={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "width": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "justifyContent": "center",
+                        "minHeight": 48,
+                        "padding": 10,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <View
+                      collapsable={false}
+                      style={
+                        {
+                          "opacity": 0,
+                        }
+                      }
+                    >
+                      <Text
+                        collapsable={false}
+                        style={
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "rgba(255, 255, 255, 0.7)",
+                            "margin": 4,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        First
+                      </Text>
+                    </View>
+                    <View
+                      collapsable={false}
+                      style={
+                        {
+                          "bottom": 0,
+                          "left": 0,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                    >
+                      <Text
+                        collapsable={false}
+                        style={
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "rgba(255, 255, 255, 1)",
+                            "margin": 4,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        First
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              onFocusCapture={[Function]}
+              onLayout={[Function]}
+              style={
+                [
+                  {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="Second"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": false,
+                  }
+                }
+                accessibilityStates={[]}
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                delayPressIn={0}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onLayout={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "width": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "justifyContent": "center",
+                        "minHeight": 48,
+                        "padding": 10,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <View
+                      collapsable={false}
+                      style={
+                        {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Text
+                        collapsable={false}
+                        style={
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "rgba(255, 255, 255, 0.7)",
+                            "margin": 4,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Second
+                      </Text>
+                    </View>
+                    <View
+                      collapsable={false}
+                      style={
+                        {
+                          "bottom": 0,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                    >
+                      <Text
+                        collapsable={false}
+                        style={
+                          {
+                            "backgroundColor": "transparent",
+                            "color": "rgba(255, 255, 255, 1)",
+                            "margin": 4,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Second
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+    <RNCViewPager
+      collapsable={false}
+      initialPage={0}
+      keyboardDismissMode="on-drag"
+      layout={
+        {
+          "height": 0,
+          "width": 750,
+        }
+      }
+      layoutDirection="ltr"
+      onMoveShouldSetResponderCapture={[Function]}
+      onPageScroll={[Function]}
+      onPageScrollStateChanged={[Function]}
+      onPageSelected={[Function]}
+      scrollEnabled={true}
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          style={
+            [
+              {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              {
+                "width": 750,
+              },
+              [
+                undefined,
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F3F3F3",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text>
+              First route
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          style={
+            [
+              {
+                "flex": 1,
+                "overflow": "hidden",
+              },
+              {
+                "width": 750,
+              },
+              [
+                undefined,
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ],
+            ]
+          }
+        />
+      </View>
+    </RNCViewPager>
+  </View>
+</RCTSafeAreaView>
+`;
